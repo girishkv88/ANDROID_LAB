@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="COURSES">
+        <menu >
+            <item android:title="MCA"
+                android:id="@+id/subitem1p1"/>
+
+            <item android:title="MBA"
+                android:id="@+id/subitem1p2"/>
+
+            <item android:title="BTECH"
+                android:id="@+id/subitem1p3"/>
+        </menu>
+    </item>
+    <item android:title="SEMESTER"
+        android:id="@+id/item2">
+        <menu >
+            <item android:title="SEMESTER 1"
+                android:id="@+id/subitem2p1"/>
+            <item android:title="SEMESTER 2"
+                android:id="@+id/subitem2p2"/>
+            <item android:title="SEMESTER 3"
+                android:id="@+id/subitem2p3"/>
+            <item android:title="SEMESTER 4"
+                android:id="@+id/subitem2p4"/>
+        </menu>
+    </item>
+    <item android:title="INTENT TEST"
+        android:id="@+id/item3">
+    </item>
+</menu>
